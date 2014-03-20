@@ -1,5 +1,18 @@
 <?php
-// Plugin Name: 2048
+/*
+ * Plugin Name: 2048
+ * Plugin URI: https://github.com/trepmal/wp-2048/
+ * Description:
+ * Version:
+ * Author: Kailey Lampert
+ * Author URI: kaileylampert.com
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * TextDomain: 2048
+ * DomainPath:
+ * Network:
+ */
+
 
 add_action( 'wp_footer', '_2048_wp_footer' );
 function _2048_wp_footer() {
