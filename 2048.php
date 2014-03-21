@@ -3,7 +3,7 @@
  * Plugin Name: 2048
  * Plugin URI: https://github.com/trepmal/wp-2048/
  * Description:
- * Version:
+ * Version: 0.2
  * Author: Kailey Lampert
  * Author URI: kaileylampert.com
  * License: GPLv2 or later
@@ -75,5 +75,5 @@ function _2048_wp_footer() {
 add_action( 'wp_enqueue_scripts', '_2048_wp_enqueue_scripts' );
 function _2048_wp_enqueue_scripts() {
 	wp_enqueue_script( '2048', plugins_url( 'js/2048.js', __FILE__ ), array('jquery'), 1, true );
-	wp_enqueue_style( '2048', plugins_url( 'style/main.css', __FILE__ ) );
+	wp_enqueue_style( '2048', plugins_url( 'css/2048.css', __FILE__ ) );
 }
