@@ -1,7 +1,7 @@
 {
   "name": "WP-2048",
-  "version": "0.0.2",
-  "description": "WP-2048 =======",
+  "version": "0.2.0",
+  "description": "WordPress plugin. Add a 2048 Easter Egg",
   "main": "2048.php",
   "scripts": {
     "test": "grunt nodeunit"
