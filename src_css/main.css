@@ -91,17 +91,6 @@
 .best-container:after {
   content: "Best"; }
 
-/*p {
-  margin-top: 0;
-  margin-bottom: 10px;
-  line-height: 1.65; }
-*/
-/*a {
-  color: #776e65;
-  font-weight: bold;
-  text-decoration: underline;
-  cursor: pointer; }
-*/
 strong.important {
   text-transform: uppercase; }
 
@@ -111,10 +100,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 30px; }
 
-/*.container {
-  width: 500px;
-  margin: 0 auto; }
-*/
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0; }
@@ -485,20 +470,9 @@ hr {
   margin-top: 50px; }
 
 @media screen and (max-width: 520px) {
-  html, body {
-    font-size: 15px; }
-
-  body {
-    margin: 20px 0;
-    padding: 0 20px; }
-
   h1.title {
     font-size: 27px;
     margin-top: 15px; }
-
-  .container {
-    width: 280px;
-    margin: 0 auto; }
 
   .score-container, .best-container {
     margin-top: 0;
